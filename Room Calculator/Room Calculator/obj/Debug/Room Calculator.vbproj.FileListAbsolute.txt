@@ -1,0 +1,12 @@
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\bin\Debug\Room Calculator.exe.config
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\bin\Debug\Room Calculator.exe
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\bin\Debug\Room Calculator.pdb
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\bin\Debug\Room Calculator.xml
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\obj\Debug\Room Calculator.vbprojAssemblyReference.cache
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\obj\Debug\Room_Calculator.frmMain.resources
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\obj\Debug\Room_Calculator.Resources.resources
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\obj\Debug\Room Calculator.vbproj.GenerateResource.cache
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\obj\Debug\Room Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\obj\Debug\Room Calculator.exe
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\obj\Debug\Room Calculator.xml
+C:\Users\sabas\Desktop\Room Calculator\Room Calculator\obj\Debug\Room Calculator.pdb
