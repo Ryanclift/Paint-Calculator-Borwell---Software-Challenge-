@@ -1,35 +1,157 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Room_Calculator.frmMain">
-    <Position X="4.75" Y="0.5" Width="2.75" />
+    <Position X="2.75" Y="0.75" Width="3" />
+    <Members>
+      <Field Name="btnCal" Hidden="true" />
+      <Field Name="btnReset" Hidden="true" />
+      <Field Name="cboNumCoats" Hidden="true" />
+      <Field Name="cboNumDoors" Hidden="true" />
+      <Field Name="cboNumSections" Hidden="true" />
+      <Field Name="cboNumWindows" Hidden="true" />
+      <Field Name="chkRecSec1" Hidden="true" />
+      <Field Name="chkRecSec2" Hidden="true" />
+      <Field Name="chkRecSec3" Hidden="true" />
+      <Field Name="chkRecSec4" Hidden="true" />
+      <Field Name="chkSquSec1" Hidden="true" />
+      <Field Name="chkSquSec2" Hidden="true" />
+      <Field Name="chkSquSec3" Hidden="true" />
+      <Field Name="chkSquSec4" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="GroupBox5" Hidden="true" />
+      <Field Name="GroupBox7" Hidden="true" />
+      <Field Name="GroupBox8" Hidden="true" />
+      <Field Name="grpFloor" Hidden="true" />
+      <Field Name="grpMain" Hidden="true" />
+      <Field Name="grpRoof" Hidden="true" />
+      <Field Name="grpRoom" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="Label29" Hidden="true" />
+      <Field Name="Label72" Hidden="true" />
+      <Field Name="lblAreaFloor" Hidden="true" />
+      <Field Name="lblAreaFloorM" Hidden="true" />
+      <Field Name="lblDoor1" Hidden="true" />
+      <Field Name="lblDoor2" Hidden="true" />
+      <Field Name="lblHeightRoof" Hidden="true" />
+      <Field Name="lblHeightRoofM" Hidden="true" />
+      <Field Name="lblHeightRoom" Hidden="true" />
+      <Field Name="lblHeightRoomM" Hidden="true" />
+      <Field Name="lblLenDoor1" Hidden="true" />
+      <Field Name="lblLenDoor1M" Hidden="true" />
+      <Field Name="lblLenDoor2" Hidden="true" />
+      <Field Name="lblLenDoor2M" Hidden="true" />
+      <Field Name="lblLenRoof" Hidden="true" />
+      <Field Name="lblLenRoofM" Hidden="true" />
+      <Field Name="lblLenSec1" Hidden="true" />
+      <Field Name="lblLenSec1M" Hidden="true" />
+      <Field Name="lblLenSec2" Hidden="true" />
+      <Field Name="lblLenSec2M" Hidden="true" />
+      <Field Name="lblLenSec3" Hidden="true" />
+      <Field Name="lblLenSec3M" Hidden="true" />
+      <Field Name="lblLenSec4" Hidden="true" />
+      <Field Name="lblLenSec4M" Hidden="true" />
+      <Field Name="lblLenWall1" Hidden="true" />
+      <Field Name="lblLenWall1M" Hidden="true" />
+      <Field Name="lblLenWall2" Hidden="true" />
+      <Field Name="lblLenWall2M" Hidden="true" />
+      <Field Name="lblLenWall3" Hidden="true" />
+      <Field Name="lblLenWall3M" Hidden="true" />
+      <Field Name="lblLenWall4" Hidden="true" />
+      <Field Name="lblLenWall4M" Hidden="true" />
+      <Field Name="lblLenWin1" Hidden="true" />
+      <Field Name="lblLenWin1M" Hidden="true" />
+      <Field Name="lblLenWin2" Hidden="true" />
+      <Field Name="lblLenWin2M" Hidden="true" />
+      <Field Name="lblNumCoats" Hidden="true" />
+      <Field Name="lblNumDoors" Hidden="true" />
+      <Field Name="lblNumWindows" Hidden="true" />
+      <Field Name="lblPaint" Hidden="true" />
+      <Field Name="lblPaintWallsL" Hidden="true" />
+      <Field Name="lblPyrRoof" Hidden="true" />
+      <Field Name="lblRem" Hidden="true" />
+      <Field Name="lblReqPaint" Hidden="true" />
+      <Field Name="lblSec1" Hidden="true" />
+      <Field Name="lblSec2" Hidden="true" />
+      <Field Name="lblSec3" Hidden="true" />
+      <Field Name="lblSec4" Hidden="true" />
+      <Field Name="lblTriRoof" Hidden="true" />
+      <Field Name="lblVolumeRoom" Hidden="true" />
+      <Field Name="lblVolumeRoomCM" Hidden="true" />
+      <Field Name="lblWall1" Hidden="true" />
+      <Field Name="lblWall2" Hidden="true" />
+      <Field Name="lblWall3" Hidden="true" />
+      <Field Name="lblWall4" Hidden="true" />
+      <Field Name="lblWidDoor1" Hidden="true" />
+      <Field Name="lblWidDoor1M" Hidden="true" />
+      <Field Name="lblWidDoor2" Hidden="true" />
+      <Field Name="lblWidDoor2M" Hidden="true" />
+      <Field Name="lblWidRoof" Hidden="true" />
+      <Field Name="lblWidRoofM" Hidden="true" />
+      <Field Name="lblWidSec1" Hidden="true" />
+      <Field Name="lblWidSec1M" Hidden="true" />
+      <Field Name="lblWidSec2" Hidden="true" />
+      <Field Name="lblWidSec2M" Hidden="true" />
+      <Field Name="lblWidSec3" Hidden="true" />
+      <Field Name="lblWidSec3M" Hidden="true" />
+      <Field Name="lblWidSec4" Hidden="true" />
+      <Field Name="lblWidSec4M" Hidden="true" />
+      <Field Name="lblWidWall1" Hidden="true" />
+      <Field Name="lblWidWall1M" Hidden="true" />
+      <Field Name="lblWidWall2" Hidden="true" />
+      <Field Name="lblWidWall2M" Hidden="true" />
+      <Field Name="lblWidWall3" Hidden="true" />
+      <Field Name="lblWidWall3M" Hidden="true" />
+      <Field Name="lblWidWall4" Hidden="true" />
+      <Field Name="lblWidWall4M" Hidden="true" />
+      <Field Name="lblWidWin1" Hidden="true" />
+      <Field Name="lblWidWin1M" Hidden="true" />
+      <Field Name="lblWidWin2" Hidden="true" />
+      <Field Name="lblWidWin2M" Hidden="true" />
+      <Field Name="lblWin1" Hidden="true" />
+      <Field Name="picDemo" Hidden="true" />
+      <Field Name="rdoFla" Hidden="true" />
+      <Field Name="rdoIrr" Hidden="true" />
+      <Field Name="rdoPyr" Hidden="true" />
+      <Field Name="rdoReg" Hidden="true" />
+      <Field Name="rdoTri" Hidden="true" />
+      <Field Name="ToolTip1" Hidden="true" />
+      <Field Name="txtAreaFloor" Hidden="true" />
+      <Field Name="txtHeightRoof" Hidden="true" />
+      <Field Name="txtHeightRoom" Hidden="true" />
+      <Field Name="txtLenDoor1" Hidden="true" />
+      <Field Name="txtLenDoor2" Hidden="true" />
+      <Field Name="txtLenRoof" Hidden="true" />
+      <Field Name="txtLenSec1" Hidden="true" />
+      <Field Name="txtLenSec2" Hidden="true" />
+      <Field Name="txtLenSec3" Hidden="true" />
+      <Field Name="txtLenSec4" Hidden="true" />
+      <Field Name="txtLenWall1" Hidden="true" />
+      <Field Name="txtLenWall2" Hidden="true" />
+      <Field Name="txtLenWall3" Hidden="true" />
+      <Field Name="txtLenWall4" Hidden="true" />
+      <Field Name="txtLenWin1" Hidden="true" />
+      <Field Name="txtLenWin2" Hidden="true" />
+      <Field Name="txtReqPaint" Hidden="true" />
+      <Field Name="txtVolumeRoom" Hidden="true" />
+      <Field Name="txtWidDoor1" Hidden="true" />
+      <Field Name="txtWidDoor2" Hidden="true" />
+      <Field Name="txtWidRoof" Hidden="true" />
+      <Field Name="txtWidSec1" Hidden="true" />
+      <Field Name="txtWidSec2" Hidden="true" />
+      <Field Name="txtWidSec3" Hidden="true" />
+      <Field Name="txtWidSec4" Hidden="true" />
+      <Field Name="txtWidWall1" Hidden="true" />
+      <Field Name="txtWidWall2" Hidden="true" />
+      <Field Name="txtWidWall3" Hidden="true" />
+      <Field Name="txtWidWall4" Hidden="true" />
+      <Field Name="txtWidWin1" Hidden="true" />
+      <Field Name="txtWidWin2" Hidden="true" />
+    </Members>
     <TypeIdentifier>
       <HashCode>KtXe4qpeE2CmfG3byMqsGLyHam3cppJbSpnWEjcoWRo=</HashCode>
       <FileName>Main.vb</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Room_Calculator.My.MyApplication" Collapsed="true">
-    <Position X="2.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Room_Calculator.My.MySettings" Collapsed="true">
-    <Position X="0.5" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAABEAAAAABAABAAAAAAAAAAAAAAA=</HashCode>
-    </TypeIdentifier>
-  </Class>
-  <Module Name="Room_Calculator.My.MySettingsProperty" Collapsed="true">
-    <Position X="0.5" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
-    </TypeIdentifier>
-  </Module>
-  <Module Name="Room_Calculator.My.Resources.Resources" Collapsed="true">
-    <Position X="2.25" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
-    </TypeIdentifier>
-  </Module>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

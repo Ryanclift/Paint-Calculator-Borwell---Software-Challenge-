@@ -24,7 +24,7 @@
         rdoReg.Checked = True
         rdoPyr.Checked = True
         Roof = 1
-        cboNumSections.SelectedIndex = 0
+        cboNumSecs.SelectedIndex = 0
         cboNumDoors.SelectedIndex = 0
         cboNumWindows.SelectedIndex = 0
         cboNumCoats.SelectedIndex = 0
@@ -113,14 +113,14 @@
     End Sub
 
     'Allows to enable relavent UI controls and disables irrelavent UI controls depending on the selected value by the user
-    Private Sub cboNumSections_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboNumSections.SelectedIndexChanged
-        If cboNumSections.SelectedItem = 1 Then
+    Private Sub cboNumSections_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboNumSecs.SelectedIndexChanged
+        If cboNumSecs.SelectedItem = 1 Then
             For Each Ctrl In grpFloor.Controls
                 If Ctrl.Tag = "Irreg2" Or Ctrl.Tag = "Irreg3" Or Ctrl.Tag = "Irreg4" Then
                     Ctrl.Enabled = False
                 End If
             Next
-        ElseIf cboNumSections.SelectedItem = 2 Then
+        ElseIf cboNumSecs.SelectedItem = 2 Then
             For Each Ctrl In grpFloor.Controls
                 If Ctrl.Tag = "Irreg2" Then
                     Ctrl.Enabled = True
@@ -131,7 +131,7 @@
                     Next
                 End If
             Next
-        ElseIf cboNumSections.SelectedItem = 3 Then
+        ElseIf cboNumSecs.SelectedItem = 3 Then
             For Each Ctrl In grpFloor.Controls
                 If Ctrl.Tag = "Irreg3" Or Ctrl.Tag = "Irreg2" Then
                     Ctrl.Enabled = True
@@ -142,7 +142,7 @@
                     Next
                 End If
             Next
-        ElseIf cboNumSections.SelectedItem = 4 Then
+        ElseIf cboNumSecs.SelectedItem = 4 Then
             For Each Ctrl In grpFloor.Controls
                 If Ctrl.Tag = "Irreg4" Or Ctrl.Tag = "Irreg3" Or Ctrl.Tag = "Irreg2" Then
                     Ctrl.Enabled = True
@@ -257,14 +257,14 @@
             SectionsArea(1, 2)
             If RegFloor = True Then
                 TotalFloorArea = AreaSec1
-            ElseIf RegFloor = False And cboNumSections.SelectedItem = 2 Then
+            ElseIf RegFloor = False And cboNumSecs.SelectedItem = 2 Then
                 TotalFloorArea = AreaSec1 + AreaSec2
-            ElseIf RegFloor = False And cboNumSections.SelectedItem = 3 Then
+            ElseIf RegFloor = False And cboNumSecs.SelectedItem = 3 Then
                 TotalFloorArea = AreaSec1 + AreaSec2 + AreaSec3
-            ElseIf RegFloor = False And cboNumSections.SelectedItem = 4 Then
+            ElseIf RegFloor = False And cboNumSecs.SelectedItem = 4 Then
                 TotalFloorArea = AreaSec1 + AreaSec2 + AreaSec3 + AreaSec4
             End If
-            txtAreaFloor.Text = TotalFloorArea
+            txtArea.Text = TotalFloorArea
             RoomVolume = txtHeightRoom.Text * TotalFloorArea
             If Roof = 1 Or Roof = 3 Then
                 Select Case Roof
@@ -277,7 +277,7 @@
             Else
                 TotalVolume = RoomVolume
             End If
-            txtVolumeRoom.Text = TotalVolume
+            txtVolume.Text = TotalVolume
             ReqPaint = txtLenWall1.Text * txtWidWall1.Text + txtLenWall2.Text * txtWidWall2.Text _
             + txtLenWall3.Text * txtWidWall3.Text + txtLenWall4.Text * txtWidWall4.Text
             If cboNumDoors.SelectedItem = 1 Then
@@ -301,8 +301,8 @@
             txtReqPaint.Text = ReqPaint
         Catch ex As Exception
             MsgBox("Error, please make sure you have selected both the type of room's floor and roof/celling")
-            txtAreaFloor.Text = ""
-            txtVolumeRoom.Text = ""
+            txtArea.Text = ""
+            txtVolume.Text = ""
             txtReqPaint.Text = ""
         End Try
     End Sub
@@ -336,10 +336,10 @@
         For Each txtbox In {txtLenSec1, txtWidSec1, txtLenSec2, txtWidSec2, txtLenSec3, txtWidSec3, txtLenSec4, txtWidSec4, txtLenWall1,
             txtWidWall1, txtLenWall2, txtWidWall2, txtLenWall3, txtWidWall3, txtLenWall4, txtWidWall4, txtLenDoor1,
             txtWidDoor1, txtLenDoor2, txtWidDoor2, txtLenWin1, txtWidWin1, txtLenWin2, txtWidWin2, txtHeightRoof, txtHeightRoom,
-            txtLenRoof, txtWidRoof, txtAreaFloor, txtVolumeRoom, txtReqPaint}
+            txtLenRoof, txtWidRoof, txtArea, txtVolume, txtReqPaint}
             txtbox.Clear()
         Next
-        cboNumSections.SelectedIndex = 0
+        cboNumSecs.SelectedIndex = 0
         cboNumDoors.SelectedIndex = 0
         cboNumWindows.SelectedIndex = 0
         cboNumCoats.SelectedIndex = 0

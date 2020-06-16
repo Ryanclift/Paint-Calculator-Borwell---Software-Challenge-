@@ -33,7 +33,7 @@ Partial Class frmMain
         Me.rdoReg = New System.Windows.Forms.RadioButton()
         Me.rdoIrr = New System.Windows.Forms.RadioButton()
         Me.grpFloor = New System.Windows.Forms.GroupBox()
-        Me.cboNumSections = New System.Windows.Forms.ComboBox()
+        Me.cboNumSecs = New System.Windows.Forms.ComboBox()
         Me.chkSquSec4 = New System.Windows.Forms.CheckBox()
         Me.chkRecSec4 = New System.Windows.Forms.CheckBox()
         Me.chkSquSec3 = New System.Windows.Forms.CheckBox()
@@ -157,10 +157,10 @@ Partial Class frmMain
         Me.lblVolumeRoomCM = New System.Windows.Forms.Label()
         Me.lblPaintWallsL = New System.Windows.Forms.Label()
         Me.lblAreaFloorM = New System.Windows.Forms.Label()
-        Me.txtAreaFloor = New System.Windows.Forms.TextBox()
+        Me.txtArea = New System.Windows.Forms.TextBox()
         Me.lblReqPaint = New System.Windows.Forms.Label()
         Me.btnCal = New System.Windows.Forms.Button()
-        Me.txtVolumeRoom = New System.Windows.Forms.TextBox()
+        Me.txtVolume = New System.Windows.Forms.TextBox()
         Me.lblVolumeRoom = New System.Windows.Forms.Label()
         Me.txtReqPaint = New System.Windows.Forms.TextBox()
         Me.lblAreaFloor = New System.Windows.Forms.Label()
@@ -268,7 +268,7 @@ Partial Class frmMain
         '
         'grpFloor
         '
-        Me.grpFloor.Controls.Add(Me.cboNumSections)
+        Me.grpFloor.Controls.Add(Me.cboNumSecs)
         Me.grpFloor.Controls.Add(Me.chkSquSec4)
         Me.grpFloor.Controls.Add(Me.chkRecSec4)
         Me.grpFloor.Controls.Add(Me.chkSquSec3)
@@ -313,16 +313,16 @@ Partial Class frmMain
         Me.grpFloor.TabStop = False
         Me.grpFloor.Text = "Room's Floor Sections Measurments"
         '
-        'cboNumSections
+        'cboNumSecs
         '
-        Me.cboNumSections.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cboNumSections.FormattingEnabled = True
-        Me.cboNumSections.Items.AddRange(New Object() {"1", "2", "3", "4"})
-        Me.cboNumSections.Location = New System.Drawing.Point(272, 40)
-        Me.cboNumSections.Name = "cboNumSections"
-        Me.cboNumSections.Size = New System.Drawing.Size(58, 24)
-        Me.cboNumSections.TabIndex = 104
-        Me.cboNumSections.Tag = "Irreg"
+        Me.cboNumSecs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboNumSecs.FormattingEnabled = True
+        Me.cboNumSecs.Items.AddRange(New Object() {"1", "2", "3", "4"})
+        Me.cboNumSecs.Location = New System.Drawing.Point(272, 40)
+        Me.cboNumSecs.Name = "cboNumSecs"
+        Me.cboNumSecs.Size = New System.Drawing.Size(58, 24)
+        Me.cboNumSecs.TabIndex = 104
+        Me.cboNumSecs.Tag = "Irreg"
         '
         'chkSquSec4
         '
@@ -1555,10 +1555,10 @@ Partial Class frmMain
         Me.GroupBox5.Controls.Add(Me.lblVolumeRoomCM)
         Me.GroupBox5.Controls.Add(Me.lblPaintWallsL)
         Me.GroupBox5.Controls.Add(Me.lblAreaFloorM)
-        Me.GroupBox5.Controls.Add(Me.txtAreaFloor)
+        Me.GroupBox5.Controls.Add(Me.txtArea)
         Me.GroupBox5.Controls.Add(Me.lblReqPaint)
         Me.GroupBox5.Controls.Add(Me.btnCal)
-        Me.GroupBox5.Controls.Add(Me.txtVolumeRoom)
+        Me.GroupBox5.Controls.Add(Me.txtVolume)
         Me.GroupBox5.Controls.Add(Me.lblVolumeRoom)
         Me.GroupBox5.Controls.Add(Me.txtReqPaint)
         Me.GroupBox5.Controls.Add(Me.lblAreaFloor)
@@ -1596,13 +1596,13 @@ Partial Class frmMain
         Me.lblAreaFloorM.TabIndex = 48
         Me.lblAreaFloorM.Text = "Square Meters"
         '
-        'txtAreaFloor
+        'txtArea
         '
-        Me.txtAreaFloor.Location = New System.Drawing.Point(126, 28)
-        Me.txtAreaFloor.Name = "txtAreaFloor"
-        Me.txtAreaFloor.ReadOnly = True
-        Me.txtAreaFloor.Size = New System.Drawing.Size(100, 22)
-        Me.txtAreaFloor.TabIndex = 4
+        Me.txtArea.Location = New System.Drawing.Point(126, 28)
+        Me.txtArea.Name = "txtArea"
+        Me.txtArea.ReadOnly = True
+        Me.txtArea.Size = New System.Drawing.Size(100, 22)
+        Me.txtArea.TabIndex = 4
         '
         'lblReqPaint
         '
@@ -1626,13 +1626,13 @@ Partial Class frmMain
         " the walls.")
         Me.btnCal.UseVisualStyleBackColor = True
         '
-        'txtVolumeRoom
+        'txtVolume
         '
-        Me.txtVolumeRoom.Location = New System.Drawing.Point(126, 64)
-        Me.txtVolumeRoom.Name = "txtVolumeRoom"
-        Me.txtVolumeRoom.ReadOnly = True
-        Me.txtVolumeRoom.Size = New System.Drawing.Size(100, 22)
-        Me.txtVolumeRoom.TabIndex = 2
+        Me.txtVolume.Location = New System.Drawing.Point(126, 64)
+        Me.txtVolume.Name = "txtVolume"
+        Me.txtVolume.ReadOnly = True
+        Me.txtVolume.Size = New System.Drawing.Size(100, 22)
+        Me.txtVolume.TabIndex = 2
         '
         'lblVolumeRoom
         '
@@ -1709,7 +1709,7 @@ Partial Class frmMain
     Friend WithEvents rdoReg As RadioButton
     Friend WithEvents rdoIrr As RadioButton
     Friend WithEvents grpFloor As GroupBox
-    Friend WithEvents cboNumSections As ComboBox
+    Friend WithEvents cboNumSecs As ComboBox
     Friend WithEvents chkSquSec4 As CheckBox
     Friend WithEvents chkRecSec4 As CheckBox
     Friend WithEvents chkSquSec3 As CheckBox
@@ -1833,10 +1833,10 @@ Partial Class frmMain
     Friend WithEvents lblVolumeRoomCM As Label
     Friend WithEvents lblPaintWallsL As Label
     Friend WithEvents lblAreaFloorM As Label
-    Friend WithEvents txtAreaFloor As TextBox
+    Friend WithEvents txtArea As TextBox
     Friend WithEvents lblReqPaint As Label
     Friend WithEvents btnCal As Button
-    Friend WithEvents txtVolumeRoom As TextBox
+    Friend WithEvents txtVolume As TextBox
     Friend WithEvents lblVolumeRoom As Label
     Friend WithEvents txtReqPaint As TextBox
     Friend WithEvents lblAreaFloor As Label
