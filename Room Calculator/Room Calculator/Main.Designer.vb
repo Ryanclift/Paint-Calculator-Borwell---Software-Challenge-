@@ -787,7 +787,7 @@ Partial Class frmMain
         Me.lblPaint.Name = "lblPaint"
         Me.lblPaint.Size = New System.Drawing.Size(303, 17)
         Me.lblPaint.TabIndex = 116
-        Me.lblPaint.Text = "1 Square Meter = 0.13 Liters of Paint (2 Coats)"
+        Me.lblPaint.Text = "1 Square Meter = 0.13 Litres of Paint (2 Coats)"
         '
         'cboNumCoats
         '
@@ -1585,7 +1585,7 @@ Partial Class frmMain
         Me.lblPaintWallsL.Name = "lblPaintWallsL"
         Me.lblPaintWallsL.Size = New System.Drawing.Size(43, 17)
         Me.lblPaintWallsL.TabIndex = 49
-        Me.lblPaintWallsL.Text = "Liters"
+        Me.lblPaintWallsL.Text = "Litres"
         '
         'lblAreaFloorM
         '
