@@ -7,7 +7,7 @@
       <Field Name="btnReset" Hidden="true" />
       <Field Name="cboNumCoats" Hidden="true" />
       <Field Name="cboNumDoors" Hidden="true" />
-      <Field Name="cboNumSections" Hidden="true" />
+      <Field Name="cboNumSecs" Hidden="true" />
       <Field Name="cboNumWindows" Hidden="true" />
       <Field Name="chkRecSec1" Hidden="true" />
       <Field Name="chkRecSec2" Hidden="true" />
@@ -116,7 +116,6 @@
       <Field Name="rdoReg" Hidden="true" />
       <Field Name="rdoTri" Hidden="true" />
       <Field Name="ToolTip1" Hidden="true" />
-      <Field Name="txtAreaFloor" Hidden="true" />
       <Field Name="txtHeightRoof" Hidden="true" />
       <Field Name="txtHeightRoom" Hidden="true" />
       <Field Name="txtLenDoor1" Hidden="true" />
@@ -133,7 +132,6 @@
       <Field Name="txtLenWin1" Hidden="true" />
       <Field Name="txtLenWin2" Hidden="true" />
       <Field Name="txtReqPaint" Hidden="true" />
-      <Field Name="txtVolumeRoom" Hidden="true" />
       <Field Name="txtWidDoor1" Hidden="true" />
       <Field Name="txtWidDoor2" Hidden="true" />
       <Field Name="txtWidRoof" Hidden="true" />
@@ -149,7 +147,7 @@
       <Field Name="txtWidWin2" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>KtXe4qpeE2CmfG3byMqsGLyHam3cppJbSpnWEjcoWRo=</HashCode>
+      <HashCode>KtXe4qpeG2CmfG3byMqsGLyHam3YppJbQpnWEjcoWRo=</HashCode>
       <FileName>Main.vb</FileName>
     </TypeIdentifier>
   </Class>

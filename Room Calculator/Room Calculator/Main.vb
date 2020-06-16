@@ -388,7 +388,7 @@
     End Sub
 
     'Used to verify all textboxes' content to only allow numbers and decimal points to be entered by the user
-    Private Sub txtLenSec1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtLenSec1.KeyPress, txtWidSec1.KeyPress,
+    Private Sub txtverify_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtLenSec1.KeyPress, txtWidSec1.KeyPress,
             txtLenSec2.KeyPress, txtWidSec2.KeyPress, txtLenSec3.KeyPress, txtWidSec3.KeyPress, txtLenSec4.KeyPress,
             txtWidSec4.KeyPress, txtLenWall1.KeyPress, txtWidWall1.KeyPress, txtLenWall2.KeyPress, txtWidWall2.KeyPress,
             txtLenWall3.KeyPress, txtWidWall3.KeyPress, txtLenWall4.KeyPress, txtWidWall4.KeyPress, txtLenDoor1.KeyPress,
