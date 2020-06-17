@@ -154,6 +154,7 @@ Partial Class frmMain
         Me.lblTriRoof = New System.Windows.Forms.Label()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.lblPaintMl = New System.Windows.Forms.Label()
         Me.lblVolumeRoomCM = New System.Windows.Forms.Label()
         Me.lblPaintWallsL = New System.Windows.Forms.Label()
         Me.lblAreaFloorM = New System.Windows.Forms.Label()
@@ -1552,6 +1553,7 @@ Partial Class frmMain
         '
         'GroupBox5
         '
+        Me.GroupBox5.Controls.Add(Me.lblPaintMl)
         Me.GroupBox5.Controls.Add(Me.lblVolumeRoomCM)
         Me.GroupBox5.Controls.Add(Me.lblPaintWallsL)
         Me.GroupBox5.Controls.Add(Me.lblAreaFloorM)
@@ -1568,6 +1570,15 @@ Partial Class frmMain
         Me.GroupBox5.TabIndex = 118
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Overall Calculated Results"
+        '
+        'lblPaintMl
+        '
+        Me.lblPaintMl.AutoSize = True
+        Me.lblPaintMl.Location = New System.Drawing.Point(10, 156)
+        Me.lblPaintMl.Name = "lblPaintMl"
+        Me.lblPaintMl.Size = New System.Drawing.Size(150, 17)
+        Me.lblPaintMl.TabIndex = 51
+        Me.lblPaintMl.Text = "1 Milliliter = 0.001 Litre"
         '
         'lblVolumeRoomCM
         '
@@ -1638,7 +1649,7 @@ Partial Class frmMain
         '
         Me.lblVolumeRoom.AutoSize = True
         Me.lblVolumeRoom.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblVolumeRoom.Location = New System.Drawing.Point(11, 67)
+        Me.lblVolumeRoom.Location = New System.Drawing.Point(11, 69)
         Me.lblVolumeRoom.Name = "lblVolumeRoom"
         Me.lblVolumeRoom.Size = New System.Drawing.Size(110, 17)
         Me.lblVolumeRoom.TabIndex = 10
@@ -1841,4 +1852,5 @@ Partial Class frmMain
     Friend WithEvents txtReqPaint As TextBox
     Friend WithEvents lblAreaFloor As Label
     Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents lblPaintMl As Label
 End Class
