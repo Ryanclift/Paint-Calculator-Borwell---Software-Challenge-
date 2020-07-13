@@ -17,3 +17,7 @@ To open the VB.NET raw source code using GitHub follow the instructions:
 1. Navigate to (Room Calcualtor > Room Calculator) <br />
 2. Open (Main.vb) <br />
 <br />
+
+The Software Challenge brief can be found on the following link: 
+<br />
+https://borwell.com/software-challenge/
